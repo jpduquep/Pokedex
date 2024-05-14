@@ -2,7 +2,7 @@ const express = require('express')
 const pokeNeaRoutes = require('./src/routes/pokeneaRoutes');
 const pokeNeaApiRoutes = require('./src/routes/pokeneaApiRoutes');
 const app = express()
-const port = 3000
+const port = 80
 const path = require('path');
 /*
 const phrases = [
