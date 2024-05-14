@@ -1,3 +1,4 @@
+const os = require("os")
 const pokeneas = [
     {
         id: 1,
@@ -85,7 +86,7 @@ exports.getRandomPokeneaInfo = () => {
         habilidad: randomPokenea.habilidad,
         imagen: randomPokenea.imagen,
         frase_filosofica: randomPokenea.frase_filosofica,
-        container_id: process.env.HOSTNAME // Esto obtiene el ID del contenedor donde se está ejecutando la aplicación
+        container_id: os.hostname()
     };
 };
 
