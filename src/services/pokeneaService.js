@@ -5,7 +5,7 @@ const pokeneas = [
         altura: "1.68",
         habilidad: "Hacer ganar al verde!!",
         imagen: "https://storage.googleapis.com/tu-bucket/pikachu.png",
-        frase_filosofica: "Solo verde a morir"
+        frase_filosofica: "Solo verde a morir y sae que"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const pokeneas = [
         altura: "1.65",
         habilidad: "Comediante",
         imagen: "https://storage.googleapis.com/tu-bucket/pikachu.png",
-        frase_filosofica: "Yo era de la calle pero ya no"
+        frase_filosofica: "Que se dice cupula"
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const pokeneas = [
         altura: "1.72",
         habilidad: "Cantar y Chantear",
         imagen: "https://storage.googleapis.com/tu-bucket/pikachu.png",
-        frase_filosofica: "Siempre vas a ser mia"
+        frase_filosofica: "Lady mi amor"
     },
     {
         id: 5,
@@ -84,6 +84,7 @@ exports.getRandomPokeneaInfo = () => {
         altura: randomPokenea.altura,
         habilidad: randomPokenea.habilidad,
         imagen: randomPokenea.imagen,
+        frase_filosofica: randomPokenea.frase_filosofica,
         container_id: process.env.HOSTNAME // Esto obtiene el ID del contenedor donde se está ejecutando la aplicación
     };
 };
